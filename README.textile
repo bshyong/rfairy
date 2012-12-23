@@ -1,10 +1,13 @@
 h1. Rfairy
+
 ========================
 
 h2. Before running:
+
 - Set up variables in application.yml
 - Admin user is user@example.com, password is please.
 
 h2. Tests:
+
 - rake cucumber
 - rake spec
