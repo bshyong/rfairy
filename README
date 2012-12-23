@@ -1,10 +1,25 @@
 Rfairy
+
 ========================
 
 Before running:
+
 - Set up variables in application.yml
 - Admin user is user@example.com, password is please.
 
 Tests:
+
 - rake cucumber
 - rake spec
+
+Feature list
+
+- Drop and drop to upload PDF
+- Read content from PDF and return a chunk of specified length at any particular position on any page
+- Schedule and send email with PDF content at a specified time interval
+- Track progress through current PDFs
+- Identify difficult vocabulary and provide definitions/example usage as extras in the scheduled email ("Wordnik ruby gem" :https://github.com/wordnik/wordnik-ruby)
+
+Areas of exploration
+
+- Support for non-PDF content?
